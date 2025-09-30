@@ -1,0 +1,6 @@
+rootProject.name = 'AspectJGradle'
+include 'moduleone'
+include 'moduletwo'
+include 'moduleaspect'
+include 'modulebase'
+include 'moduleexecute'
