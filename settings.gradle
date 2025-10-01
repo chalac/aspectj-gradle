@@ -1,4 +1,4 @@
-rootProject.name = 'AspectJGradle'
+rootProject.name = 'aspectj-gradle'
 include 'moduleone'
 include 'moduletwo'
 include 'moduleaspect'
