@@ -1,6 +1,11 @@
 rootProject.name = 'aspectj-gradle'
-include 'moduleone'
-include 'moduletwo'
-include 'moduleaspect'
-include 'modulebase'
-include 'moduleexecute'
+include ':modulebase'
+include ':moduleone'
+include ':moduletwo'
+include ':moduleaspect'
+include ':moduleexecute'
+project(':modulebase').projectDir = file('modulebase')
+project(':moduleone').projectDir = file('moduleone')
+project(':moduletwo').projectDir = file('moduletwo')
+project(':moduleaspect').projectDir = file('moduleaspect')
+project(':moduleexecute').projectDir = file('moduleexecute')

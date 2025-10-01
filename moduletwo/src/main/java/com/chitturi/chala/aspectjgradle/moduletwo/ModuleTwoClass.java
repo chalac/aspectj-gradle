@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class ModuleTwoClass implements BaseClass {
     @Override
-    public String gradelBaseMethod(String stringArgument) {
+    public String gradelBaseMethod(String argument) {
         return UUID.randomUUID().toString();
     }
 }
