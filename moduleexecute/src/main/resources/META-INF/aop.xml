@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.chitturi.chala.aspectjgradle.moduleaspect.LoggingAspect"/>
+    </aspects>
+    <weaver options="-verbose">
+        <include within="com.chitturi.chala.aspectjgradle.*"/>
+    </weaver>
+</aspectj>
